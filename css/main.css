@@ -1,0 +1,77 @@
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+h1, h2, h3, h4, h5, h6, .homeSection h3, #pageHead h1, .widgetBox span.title, #homeContent p.big { /* font-family: 'Alegreya Sans' !important; */ }
+.home #bannerText .main { font-family: 'Nixie One' !important; }
+.home #bannerText .secondary { font-family: 'Alegreya SC'; }
+#bannerText .main { margin-top: -15px; }
+blockquote, address {
+  border-left: 5px solid #85bec4;
+} 
+#content .project.small .inside{
+  background-color: #85bec4 !important;
+} 
+#pageslide {
+  background-color: #333333;
+} 
+#header .top.solid, #header .top, .has-banner #header .top.solid { background-color: #52a3ba00;}
+a { color: #4da7ca;}
+a:hover {color: #4290ae;}
+.button, #searchsubmit, input[type="submit"] {background-color: #52a3ba;}
+#homeBanner {
+  background: url(../img/dock.jpg) no-repeat center center fixed;    
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%;
+  background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;      
+  overflow: hidden;
+  width: 100%;    
+  margin: 0;  
+  position: relative;\
+}
+
+.fab {
+  font-size: 1.5em;
+  margin: 0 10px 0 0;
+}
+.polygon{
+  position: fixed;
+  bottom: 0;
+  border-bottom: 57px solid #fff;
+  border-right: 32px solid transparent;
+  height: 0;
+  width: 61px;
+  left: 0;
+}
+
+@media only screen and (max-width: 820px) {
+  .banner-name h1 {
+    font-size: 2em !important;
+    /* padding: 65px 24px !important;    */ 
+    min-height: 1vh !important; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mob-width{
+    width: 100% !important;
+  }
+}
+.banner-name{
+  height: 100%;
+    vertical-align: middle;
+    margin: auto;
+}
